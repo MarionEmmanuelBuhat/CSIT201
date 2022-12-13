@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+}
+.container {
+    min-height: 30vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../media/background_hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    height: 4.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+.logo {
+    height: 100%;
+    width: fit-content;
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    padding: 0px 0px
+}
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+nav ul li a:hover {
+    color: #ff7a59;
+    border: 1px solid #ff7a59;
+    background:#fff;
+}
+nav h2 {
+    width: 7em;
+}
+nav a {
+    text-decoration: none;
+}
+.text_box {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text_box h1 {
+    font-size: 60px;
+    line-height: 85%;
+}
+.flex-column {
+    display:flex;
+    top: 50%;
+    left: 25%;
+    flex-direction: column;
+    align-content: flex-start;
+    min-height: 10px;
+}
+.flex-hotel {
+    display:flex;
+    top: 50%;
+    left: 25%;
+    min-height: 10px;
+}
+.item {
+    min-width: 350px;
+    min-height: 400px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: lightskyblue;
+    display: block;
+}
+.item_bar {
+    min-width: 500px;
+    min-height: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: lightskyblue;
+    display: inline-block;
+
+}
+.image_hotel {
+    max-width: 20%;
+    max-height:20%;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+.image_text_hotel {
+    color: black;
+    margin: 10px;
+    display: block;
+    padding: 10px;
+    min-height: 250px ;
+    min-width: 150px;
+    text-align: left;
+}
+
+.image_text_hotel1 {
+    color: black;
+    margin: 10px;
+    display: block;
+    padding: 10px;
+    min-height: 250px ;
+    min-width: 300px;
+    text-align: left;
+}
+.frame {
+    min-height: 30vh;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+}
+.title {
+    font-size: 60px;
+    line-height: 85%;
+    padding-bottom: 30px;
+    color: black;
+}
