@@ -86,7 +86,6 @@ nav a {
 .introductionContent {  
     background: rgb(21, 32, 43);
     text-align: justify;
-    -webkit-text-size-adjust: 100%;
 }
 .intro {
     max-width: 80%;
@@ -238,4 +237,30 @@ nav a {
     color: #e5eaee;
     font-size: 17px;
     text-align: justify;
+}
+.footer {
+    margin-top: 20px;
+    border-top: 1px solid #dcdcdc;
+}
+.footer_text {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    padding-bottom: 30px;
+    color: #e5eaee;
+    padding-top: 10px;
+}
+.footer_text h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer_text a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: cornflowerblue;
 }

@@ -5,13 +5,19 @@
     color: #FFFFFF;
 }
 .container {
-    min-height: 30vh;
+    min-height: 60vh;
     width: 100%;
     background-image: 
     linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../media/background_specialities.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(21, 32, 43);
+    z-index: 10;
 }
 nav {
     height: 4.5em;
@@ -104,4 +110,95 @@ nav a {
     padding-top: 100px;
     color: black;
     text-align: center;
+}
+
+/* start of main content */
+
+.main_content {
+    background: rgb(21, 32, 43);
+    text-align: justify;
+}
+.local_specialties_text {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.local_specialties_text h1 {
+    color: #e5eaee;
+    font-weight: 700;
+}
+.local_specialties {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.specialties_box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: calc(50% - 25px);
+    height: 260px;
+    padding-right: 15px;
+    margin-right: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+.specialties_box:nth-child(2n) {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: calc(50% - 25px);
+    margin: 0 0 0 0;
+    padding-right: 15px;
+    height: 260px;
+    border-bottom: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+.specialties_img img {
+    width: 142px;
+    height: 230px;
+    border-radius: 5px;
+}
+.specialties_txt {
+    padding-left: 24px;
+}
+.specialties_txt h2 {
+    font-size: 20px;
+    font-weight: 500px;
+    color: #e5eaee;
+    padding-bottom: 15px;
+}
+.specialties_txt p {
+    color: #e5eaee;
+    font-size: 17px;
+    text-align: justify;
+}
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid #dcdcdc;
+}
+.footer_text {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    padding-bottom: 30px;
+    color: #e5eaee;
+    padding-top: 10px;
+}
+.footer_text h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer_text a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: cornflowerblue;
 }
