@@ -97,7 +97,7 @@ nav a {
 .intro h1 {
     font-size: 1.6rem;
     color: #e5eaee;
-    font-weight: 500;
+    font-weight: 700;
 }
 .intro p {
     padding-top: 20px;
@@ -113,7 +113,7 @@ nav a {
 .howToGetThere h1 {
     color: #e5eaee;
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 700;
     padding-top: 40px;
 }
 .howToGetThere p {
@@ -131,7 +131,7 @@ nav a {
 }
 .exploreByArea h1 {
     color: #e5eaee;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.85rem;
     margin: 0 auto 10px;
 }
@@ -179,4 +179,63 @@ nav a {
     font-size: 28px;
     font-weight: 700;
     text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+}
+.seasonal_highlights {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.seasonal_highlights h1 {
+    color: #e5eaee;
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-size: 1.85rem;
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 auto;
+}
+.season_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.season_box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: calc(50% - 25px);
+    height: 260px;
+    padding-right: 15px;
+    margin-right: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+.season_box:nth-child(2n) {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: calc(50% - 25px);
+    margin: 0 0 0 0;
+    padding-right: 15px;
+    height: 260px;
+    border-bottom: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+.season_img img {
+    width: 142px;
+    height: 230px;
+    border-radius: 5px;
+}
+.season_txt {
+    padding-left: 24px;
+}
+.season_txt h2 {
+    font-size: 20px;
+    font-weight: 500px;
+    color: #e5eaee;
+    padding-bottom: 15px;
+}
+.season_txt p {
+    color: #e5eaee;
+    font-size: 17px;
+    text-align: justify;
 }
