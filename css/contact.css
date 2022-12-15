@@ -27,8 +27,8 @@
     display: block;
     box-sizing: border-box;
     padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav {
     height: 4.5em;
@@ -192,4 +192,56 @@ nav a {
     .container1{
         flex-direction: column;
     }
+}
+
+.footer {
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.footer_text {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    color: #e5eaee;
+    padding-top: 10px; 
+    text-align: center;
+}
+
+.footer_text h1 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer_text p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer_text a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: cornflowerblue;
+} 
+.footer_column{
+    display: flex;
+    justify-content: center;
+}
+.footer_name{
+    padding: 25px;
+}
+.footer_text h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.icon{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer_logo{
+    position: relative;
+    max-height: 75px;
+    max-width: 75px;
+}
+.footer .icon h4{
+    text-decoration: none;
+    font-weight: 500;
 }

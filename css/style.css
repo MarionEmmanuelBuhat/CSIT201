@@ -34,8 +34,8 @@ nav {
     display: block;
     box-sizing: border-box;
     padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav ul {
     list-style: none;
@@ -91,7 +91,7 @@ nav a {
     max-width: 80%;
     margin: 0 auto;
     padding: 0 1rem;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .intro h1 {
     font-size: 1.6rem;
@@ -239,31 +239,28 @@ nav a {
     text-align: justify;
 }
 .footer {
-    margin-top: 20px;
-    border-top: 1px solid #dcdcdc;
-    opacity: 0.60;
+    margin-top: 10px;
+    opacity: 0.8;
 }
 .footer_text {
     max-width: 80%;
     margin: 0 auto;
     padding: 0 1rem;
-    padding-bottom: 10px;
     color: #e5eaee;
     padding-top: 10px; 
     text-align: center;
-
 }
 
 .footer_text h1 {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
 }
 .footer_text p {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
 }
 .footer_text a {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     text-decoration: none;
     color: cornflowerblue;
@@ -272,7 +269,6 @@ nav a {
     display: flex;
     justify-content: center;
 }
-
 .footer_name{
     padding: 25px;
 }
@@ -282,14 +278,14 @@ nav a {
 }
 .icon{
     text-align: center;
+    padding-bottom: 20px;
 }
 .footer_logo{
     position: relative;
     max-height: 75px;
     max-width: 75px;
-
 }
 .footer .icon h4{
     text-decoration: none;
-    
+    font-weight: 500;
 }
