@@ -19,6 +19,17 @@
     background-color: rgb(21, 32, 43);
     z-index: 10;
 }
+.logo {
+    height: 100%;
+    width: fit-content;
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    pointer-events: none;
+}
 nav {
     height: 4.5em;
     display: flex;
