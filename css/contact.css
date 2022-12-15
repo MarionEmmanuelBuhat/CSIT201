@@ -22,14 +22,12 @@
 }
 .logo {
     height: 100%;
-    width: fit-content;
-    cursor: pointer;
+    width: auto;
     display: block;
     box-sizing: border-box;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    pointer-events: none;
 }
 nav {
     height: 4.5em;
