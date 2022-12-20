@@ -13,9 +13,9 @@
         <div class="navbar">
             <nav>
                 <img src="../media/logo.png" class="logo">
-                <h2><a href="/index.html">Kyoto to Go</a></h2>
+                <h2><a href="../index.html">Kyoto to Go</a></h2>
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="../html/attractions.html">Top Attractions</a></li>
                     <li><a href="../html/local_specialties.html">Local Specialties</a></li>
                     <li><a href="../html/contact_us.html">Contact Us</a></li>
@@ -520,14 +520,6 @@
             </div>
         </div>
     </div>
-    <script>
-        document.addEventListener("readystatechange", ()=>{
-            const ratings=document.querySelectorAll(".ratings");
-            ratings.forEach(el=>{
-            const img = el.children[1];
-            const pb = el.children[0];
-            pb.style.width = (parseFloat(pb.dataset.rating) * img.clientWidth / 5 - 1) + "px";
-        })});
-    </script>
+    <script src="../js/progress_bar.js"></script>
 </body>
 </html>
