@@ -244,7 +244,7 @@ img.place_visits {
 /* (1920x1080) Full HD Display */
 @media  screen and (max-width: 1920px) {
     .spot_rank {
-        bottom: -1em;
+        bottom: -0.8em;
     }
     .central_kyoto_txt {
         padding-top: 0;
