@@ -260,8 +260,8 @@ img.place_visits {
         margin-top: auto;
         margin-bottom: 10px;
     }
-    .ratings {
-        width: 104.84px;
+    .ratings img {
+        width: 100%;
     }
     .central_kyoto_txt h1 {
         font-size: 19px;
