@@ -106,7 +106,8 @@ nav a {
     position: relative;
 }
 .central_kyoto_img img {
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     max-width: 100%;
     height: calc(100% + 10px);
 }
@@ -115,7 +116,7 @@ nav a {
     width: 1.85em;
     height: 1.85em;
     line-height: 1.85em;
-    bottom: -1.65rem;
+    bottom: -0.8rem;
     left: 1rem;
     position: absolute;
     text-align: center;
@@ -238,4 +239,34 @@ img.place_visits {
 .footer .icon h4{
     text-decoration: none;
     font-weight: 500;
+}
+
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    .spot_rank {
+        bottom: -1em;
+    }
+    .central_kyoto_txt {
+        padding-top: 0;
+    }
+    .central_kyoto_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .kyoto_box {
+        height: 350px;
+    }
+    .user_ratings {
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+    .ratings {
+        width: 104.84px;
+    }
+    .central_kyoto_txt h1 {
+        font-size: 19px;
+    }
+    .central_kyoto_txt p {
+        font-size: 17px;
+    }
 }
